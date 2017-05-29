@@ -10,7 +10,7 @@ if (value > 0) {
 	console.log("Wartość jest dodatnia")
 } else if (value < 0) {
 	console.log("Wartość jest ujemna")
-} else if (value == 0) {
+} else if (value === 0) {
 	console.log("Wartość jest równa 0")
 } else {
 	console.log("coś nie tak")

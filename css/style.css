@@ -2,17 +2,18 @@
     box-sizing: border-box;
 }
 
-[class*="example"]{
+[class*="example"] {
 	max-height: 90vh;
 }
 
 .img-responsive {
 	width: 100%;
+	height: 100%;
 	object-fit: cover;
 }
 
-@media (max-width: 767px){
-	[class*="example"]{
+@media (max-width: 767px) {
+	[class*="example"] {
 		max-height: 35vh;
 	}
 }
